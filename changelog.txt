@@ -11,6 +11,9 @@
   * Changed the Action Button to show red when not installed or out of date, Green when up to date.
   * Fixed a bug with Light mode, if selected, Preferences window would disappear before you get a chance to save adn close thus making the application not respond forcing End Tasking.
   * Fixed Glass / Transparency bug.
+  * Added Markdown compatibility. This is beta as it is still being worked on.
+  * Changed the settings file, I am now using .dat file and this is now encrypted to prevent any unauthorised tampering, more secure now.
+  * Fixed a new bug where the application loads with no settings file, presented with a small frame.
 
 **Ozzis Installer v1.0.0.1**
   * Incrimented version from 5.0.19 to 5.0.20.

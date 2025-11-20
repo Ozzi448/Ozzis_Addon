@@ -13,7 +13,7 @@
   * Fixed Glass / Transparency bug.
   * Added Markdown compatibility. This is beta as it is still being worked on.
   * Changed the settings file, I am now using .dat file and this is now encrypted to prevent any unauthorised tampering, more secure now.
-  * Fixed a new bug where the application loads with no settings file, presented with a small frame.
+  * Fixed a new bug where the application loads with no settings file that presented with a small frame.
 
 **Ozzis Installer v1.0.0.1**
   * Incrimented version from 5.0.19 to 5.0.20.

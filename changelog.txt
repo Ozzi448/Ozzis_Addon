@@ -1,6 +1,6 @@
 Ozzis Installer v1.0.0.3
   * Incrimeted verion from 5.0.20 to 5.0.21
-  * Fixed accidental copy paste from enUS.lua to WhatsNew.lua without double checking the code.
+  * Fixed a Lua error caused by accidentally copying code from enUS.lua to WhatsNew.lua without verification.
 
 Ozzis Installer v1.0.0.2
   * Changed to different code, resorted to use python, there are more pros than cons compared to the old script.

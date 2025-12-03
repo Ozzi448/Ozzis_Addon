@@ -1,5 +1,10 @@
+Ozzis Installer v1.0.0.4
+  * Incrimented addon version from 5.0.21 to 5.0.22
+  * Compatibility
+    * Made the necessary changes according to the API.
+
 Ozzis Installer v1.0.0.3
-  * Incrimeted verion from 5.0.20 to 5.0.21
+  * Incrimeted addon verion from 5.0.20 to 5.0.21
   * Fixed a Lua error caused by accidentally copying code from enUS.lua to WhatsNew.lua without verification.
 
 Ozzis Installer v1.0.0.2

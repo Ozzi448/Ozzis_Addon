@@ -1,3 +1,7 @@
+Ozzis Installer v1.0.0.5
+  * Created a MySQL database with appropriate tables to store the new Addon Version and URL path.
+  * Fixed a major error that occurs only in the compiled .exe file, where the required modules fail to import. The version number remains unchanged at v1.0.0.5. If you downloaded this update earlier, please re-download it and replace the previous file.
+
 Ozzis Installer v1.0.0.4
   * Incrimented addon version from 5.0.21 to 5.0.22
   * Compatibility

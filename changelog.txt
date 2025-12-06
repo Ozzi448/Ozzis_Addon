@@ -29,7 +29,7 @@ Ozzis Installer v1.0.0.2
     * Made the necessary changes to open the Preferences and Changelogs to open where the Main Frames are
 positioned.
   * Added a new Reinstall button, had to change the size of the Action Button.
-  * Changed the Action Button to show red when not installed or out of date, Green when up to date.
+  * Changed the Action Button to show Red when not installed, Orange when out of date, Green when up to date.
   * Fixed a bug with Light mode, if selected, Preferences window would disappear before you get a chance to save
 and close thus making the application not respond forcing End Tasking.
   * Fixed Glass / Transparency bug.

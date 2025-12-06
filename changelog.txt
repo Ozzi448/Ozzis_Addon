@@ -3,13 +3,20 @@ Ozzis Installer v1.0.0.5
   * Fixed a major error that occurs only in the compiled .exe file, where the required modules fail to import. The version number remains unchanged at v1.0.0.5. If you downloaded this update earlier, please re-download it and replace the previous file.
 
 Ozzis Installer v1.0.0.4
-  * Incrimented addon version from 5.0.21 to 5.0.22
-  * Compatibility
+  * Changed the Addon Version variable.
+  * Changed the Addon URL variable.
+
+Ozzis Addon v5.0.22
+  * Compatibility.
     * Made the necessary changes according to the API.
 
 Ozzis Installer v1.0.0.3
-  * Incrimeted addon verion from 5.0.20 to 5.0.21
-  * Fixed a Lua error caused by accidentally copying code from enUS.lua to WhatsNew.lua without verification.
+  * Changed the Addon Version variable.
+  * Changed the Addon URL variable.
+
+Ozzis Addon v5.0.21
+  * Bug Fixes.
+    * Fixed a Lua error caused by accidentally copying code from enUS.lua to WhatsNew.lua without verification.
 
 Ozzis Installer v1.0.0.2
   * Changed to different code, resorted to use python, there are more pros than cons compared to the old script.
@@ -31,8 +38,15 @@ tampering, more secure now.
   * Fixed a new bug where the application loads with no settings file that presented with a small frame.
 
 Ozzis Installer v1.0.0.1
-  * Incrimented version from 5.0.19 to 5.0.20.
-  * Added new updated addon .zip file.
+  * Changed the Addon Version variable.
+  * Changed the Addon URL variable.
+
+Ozzis Addon 5.0.20
+  * Compatibility.
+    * Added Nightfall Compatibility.
+  * Bug Fixes.
+    * Fixed issues with Libs not loading correctly.
+    * Fixed issues with slight lag with some modules like Tracker.
 
 Ozzis Installer v1.0.0.0
   * Initial release

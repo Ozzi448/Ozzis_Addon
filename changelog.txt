@@ -1,3 +1,12 @@
+Ozzis Addon v5.0.23
+  * Additions
+    * Added a better way to check if the addon is loaded, if it is not loaded, it will not continue to load.
+    * Added better namespace elements.
+  * Bug Fixes
+    * Fixed TeleportOut /tp command to work with the new changes in 11.2.7 first pre-patch for Midnight.
+    * Fixed LeaveGroup /lg command to work with the new changes in 11.2.7 first pre-patch for Midnight.
+    * Fixed Locale issues, I will continue with re-writing the entire Locales later.
+
 Ozzis Installer v1.0.0.5
   * Created a MySQL database with appropriate tables to store the new Addon Version and URL path.
   * Fixed a major error that occurs only in the compiled .exe file, where the required modules fail to import. The version number remains unchanged at v1.0.0.5. If you downloaded this update earlier, please re-download it and replace the previous file.

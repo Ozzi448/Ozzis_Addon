@@ -1,3 +1,7 @@
+Ozzis Addon v5.0.24
+  * Compatibility.
+    * Made the necessary changes according to the API.
+
 Ozzis Addon v5.0.23
   * Additions
     * Added a better way to check if the addon is loaded, if it is not loaded, it will not continue to load.

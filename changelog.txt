@@ -12,6 +12,7 @@ Ozzis Addon v5.0.25
   * Known Limitations.
     * Some Edit Mode–related taint errors originating from Blizzard unit frame code cannot be safely fixed from an addon and are left untouched.
     * This addon intentionally avoids overriding or modifying protected Blizzard functions to prevent long-term UI instability.
+    * MoneyFrame_Update taint errors may still occur despite mitigations. This is a Blizzard-side issue and cannot be fully resolved by addons.
   * Notes.
     * These changes are defensive and conservative by design.
     * The goal is to keep the UI usable during pre-patch instability while avoiding unsafe hooks or overrides.

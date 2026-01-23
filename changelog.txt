@@ -1,3 +1,22 @@
+Ozzis Addon v5.0.25
+  * Added new Taint module.
+    * Added defensive taint mitigations inspired by legacy NoTaint behavior, focused on preventing addon involvement in known Blizzard taint paths.
+    * /oztaint toggle to enable/disable taint workarounds for testing and troubleshooting (enabled by default on login).
+    * Additional safeguards around Edit Mode access to avoid triggering known Blizzard unit frame taint conditions.
+  * Changed.
+    * Tooltip handling refined to avoid interacting with money frames during combat.
+    * Tooltip-related hooks now bail early in combat to prevent taint propagation during item, inventory, and character panel hovers.
+  * Fixed.
+    * Prevented addon participation in MoneyFrame_Update taint errors triggered by item tooltips (bags, character frame, action bars).
+    * Reduced false-positive taint attribution caused by addon-triggered UI refreshes during combat and Edit Mode transitions.
+  * Known Limitations.
+    * Some Edit Mode–related taint errors originating from Blizzard unit frame code cannot be safely fixed from an addon and are left untouched.
+    * This addon intentionally avoids overriding or modifying protected Blizzard functions to prevent long-term UI instability.
+  * Notes.
+    * These changes are defensive and conservative by design.
+    * The goal is to keep the UI usable during pre-patch instability while avoiding unsafe hooks or overrides.
+    * Some taint errors may still occur if they originate entirely within Blizzard code.
+
 Ozzis Addon v5.0.24
   * Compatibility.
     * Made the necessary changes according to the API.

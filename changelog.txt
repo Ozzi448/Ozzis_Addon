@@ -1,12 +1,30 @@
+Ozzis Addon v5.0.27
+* Addon Development
+  * Fixed Taint module issues that prevented startup messages from displaying correctly.
+  * Corrected metadata inconsistencies.
+  * Improved handling when the addon is out of date.
+  * Added a Sound Provider option in settings:
+    * Selecting **Dugi Guides** disables the QuestSounds module, giving full control to Dugi Guides.
+    * Selecting **Ozzis Addon** enables the QuestSounds module and automatically sets Dugi’s Quest Complete Sound to “None” to prevent conflicts.
+
+Ozzis Addon v5.0.26
+* Addon Development
+  * Updated embedded Ace3 libraries to their latest versions:
+    AceAddon-3.0, AceConfig-3.0, AceConsole-3.0, AceDB-3.0, AceEvent-3.0, AceGUI-3.0, AceLocale-3.0, CallbackHandler-1.0, LibStub, LibSharedMedia-3.0
+  * Removed the /oztaint slash command.
+    * The Taint module can now be enabled or disabled via: /oz settings → Modules
+  * Added QuestSound module configuration support.
+    * Quest-related sound behavior can now be modified via: /oz settings → Quest Sounds
+  * Removed /em slash command integration due to conflicts with Blizzard Edit Mode functionality.
+
 Ozzis Addon v5.0.25
+* Addon Development
   * Added new Taint module.
     * Added defensive taint mitigations inspired by legacy NoTaint behavior, focused on preventing addon involvement in known Blizzard taint paths.
     * /oztaint toggle to enable/disable taint workarounds for testing and troubleshooting (enabled by default on login).
     * Additional safeguards around Edit Mode access to avoid triggering known Blizzard unit frame taint conditions.
-  * Changed.
     * Tooltip handling refined to avoid interacting with money frames during combat.
     * Tooltip-related hooks now bail early in combat to prevent taint propagation during item, inventory, and character panel hovers.
-  * Fixed.
     * Prevented addon participation in MoneyFrame_Update taint errors triggered by item tooltips (bags, character frame, action bars).
     * Reduced false-positive taint attribution caused by addon-triggered UI refreshes during combat and Edit Mode transitions.
   * Known Limitations.

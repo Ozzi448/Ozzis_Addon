@@ -1,3 +1,11 @@
+Ozzis Addon v5.0.28
+* Addon Development.
+  * Removed Carbonite sound due to copyright.
+  * Added Quest Complete - AUS sound.
+  * Added Quest Complete - NZ sound.
+  * Added Quest Complete - USA sound.
+  * Removed toc 120000 as this is now irrelevant to keep.
+
 Ozzis Addon v5.0.27
 * Addon Development
   * Fixed Taint module issues that prevented startup messages from displaying correctly.

@@ -1,3 +1,10 @@
+Ozzis Addon v5.0.29
+* Addon Development
+  * Addon compatibility
+  * Fixed version descrepency
+  * Removed some slash commands
+  * Fixed /em Edit Mode command
+
 Ozzis Addon v5.0.28
 * Addon Development.
   * Removed Carbonite sound due to copyright.

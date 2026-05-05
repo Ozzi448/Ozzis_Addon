@@ -1,3 +1,9 @@
+Ozzis Addon v5.0.30
+* Addon Development
+  * Track Module — Added theme support (Dugi, ElvUI, Ozzis).  
+    Use `/track theme ozzis` to apply.
+  * Profbar Module — Resolved multiple runtime errors and improved stability.
+
 Ozzis Addon v5.0.29
 * Addon Development
   * Addon compatibility
